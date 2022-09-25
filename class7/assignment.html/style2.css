@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("kgc.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradientlinear-gradient(#d66dd6c0 30%,#cf87dfe0 70%);
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+}
+
+.icon h2{
+    color: chartreuse;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 390px;
+    float: left;
+    padding-top: 210px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+.menu ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul li{
+   list-style: none;
+   margin-left: 62px;
+   margin-top: 27px;
+   font-size: 23px;
+  color: rgb(233, 243, 242);
+  font-weight: bold;
+}
+
+.menu ui li a{
+    text-decoration: none;
+    text-emphasis-color:rgb(202, 14, 133);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    font-size: 10pxpx;
+}
+
+.search{
+    width:330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Courier New', Courier, monospace;
+    width: 200px;
+    height: 16px;
+    background: transparent;
+    border-radius: 2px solid rgba(173, 4, 140, 0.808);
+margin-top:13px;
+color: white;
+font-size: 16px;
+padding: 10px;
+border-bottom-left-radius: 5px;
+border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+height:40px;
+background: darkcyan;
+border: 2px solid darkcyan;
+margin-top: 13px;
+color: white;
+font-size: 15px;
+}
+
+.btn :hover{
+    color: black;
+    background: white;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+
+.content h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-top: 370px;
+    padding-right: 160px;
+}
+
+.content span{
+    color: aqua;
+    font-size: 65px;
+}
+
+.content p{
+    padding-left:20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2;
+    line-height: 30px;
+}
+
+.joinBtn{
+    width: 160px;
+    height: 40px;
+    background-color: aqua;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    transition:0.4 ease-in-out;
+}
+
+.joinBtn :hover{
+    color: aliceblue;
+}
+
+.form{
+    width:250px;
+    height: 380px;
+    background: black;
+    position: absolute;
+    top: 100px;
+    left: 870px;
+    transform: translate(0,-5%);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: darkcyan;
+    font-size: 22px;
+    background: darkgoldenrod;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 2px solid darkcyan;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: aliceblue;
+    font-size: 15px;
+    letter-spacing: 1;
+    margin-top: 30px;
+}
+.form input:focus{
+outline: none;
+}
+
+::placeholder{
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.loginBtn{
+    width: 240px;
+    height: 40px;
+    background: darkcyan;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 18px;
+    color: aliceblue;
+    transition: 0.4 ease;
+}
+
+.loginBtn :hover{
+    color: darkcyan;
+    background: white;
+}
+
+.link{
+    font-size: 18px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.signup{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px!important;
+}
+
+.signup a{
+    text-decoration: none;
+    font-size: 10px;
+    color: aliceblue;
+}
+
+.liw{
+    text-align: center;
+}
